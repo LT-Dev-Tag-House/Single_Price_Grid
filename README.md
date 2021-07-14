@@ -39,8 +39,8 @@ Your users should be able to:
 
 ### Links
 
-- Solution URL: []()
-- Live Site URL: []()
+- Solution URL: [https://www.frontendmentor.io/solutions/single-price-grid-flexbox-uplS9st8G](https://www.frontendmentor.io/solutions/single-price-grid-flexbox-uplS9st8G)
+- Live Site URL: [https://lt-dev-tag-house.github.io/Single_Price_Grid/](https://lt-dev-tag-house.github.io/Single_Price_Grid/)
 
 ## My process
 
