@@ -1,0 +1,142 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
+    background-color: hsl(0, 0%, 98%);
+}
+
+.intro--bg {
+    padding: 1rem 1rem;
+    background-color: white;
+    border-top-right-radius: 8px;
+    border-top-left-radius: 8px;
+}
+
+body > .container {
+    margin-top: 2rem;
+}
+
+.container {
+    width: 90%;
+    max-width: 320px;
+    margin: 0 auto;
+    box-shadow: 0 5px 10px 10px rgba(0, 0, 0, 0.05);
+}
+
+h3 {
+    color: hsl(179, 62%, 43%);
+    font-size: 21px;
+}
+
+.cta {
+    font-weight: 700;
+    color: hsl(71, 73%, 54%);
+    font-size: 17px;
+}
+
+.sub-text {
+    font-weight: 400;
+    color: hsl(218, 22%, 67%);
+}
+
+.sign-up--bg {
+    padding: 1rem 1rem;
+    background-color: hsl(179, 62%, 43%);
+    color: whitesmoke;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.small-text {
+    font-weight: normal;
+    font-size: 13px;
+    position: relative;
+    top: -5px;
+    color: hsl(200, 55%, 80%);
+    margin-left: 10px;
+}
+
+.call-to-action {
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    background-color: hsl(71, 73%, 54%);
+    border-radius: 8px;
+    padding: 1rem 1rem;
+    width: 85%;
+}
+
+.call-to-action:hover {
+    filter: brightness(100%);
+    box-shadow: 5px 5px 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.why-us--bg {
+    color: white;
+    padding: 1rem 1rem;
+    background-color: hsl(179, 62%, 43%, .8) ;
+    line-height: 21px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+}
+
+.why-us--bg p {
+    color:hsl(216, 14%, 86%);
+}
+.features {
+    list-style: none;
+    /* border: 2px solid red; */
+    padding-left: 0rem;
+}
+
+
+@media (min-width: 1455px) {
+
+    .intro-text {
+        padding: 1rem 1rem;
+        line-height: 20px;
+    }
+    .sub-text {
+        width: 500px;
+    }
+
+    .d-flex {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container {
+        width: 36%;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    .sign-up--bg {
+        padding: 1rem 1.75rem;
+        width: 400px;
+        height: 250px;
+        border-bottom-left-radius: 8px;
+    }
+
+    .call-to-action {
+        margin-top: 1rem;
+        width: 95%;
+    }
+
+    .why-us--bg {
+        padding: 1rem 1.75rem;
+        line-height: 21px;
+        width: 400px;
+        border-bottom-left-radius: 0px;
+    }
+}
